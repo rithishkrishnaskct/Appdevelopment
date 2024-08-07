@@ -1,0 +1,33 @@
+.word-puzzle-game {
+    /* text-align: center; */
+    margin-left: 200px;
+    padding-left: 300px;
+    margin-top: 20px;
+  }
+  
+  .scrambled-word {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .ggg{
+    margin-top: -250px;
+    margin-right: 280px;
+  }

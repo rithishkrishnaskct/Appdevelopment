@@ -1,0 +1,101 @@
+.content {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+  height: 100vh;
+  width: 100%;
+  font-family: Chivo Mono;
+}
+
+.about-us-page .containers {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-us-page .about {
+  width: 50%;
+  height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/427/700/original/books-stack-realistic-vector.jpg');
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-us-page .text {
+  font-size: 2rem;
+  color: rgb(12, 4, 7);
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.about-us-page .lines {
+  width: 200px;
+  height: 8px;
+  background-color: rgb(222, 40, 101);
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 1rem auto;
+  font-family: Chivo Mono;
+}
+
+.about-us-page .contents {
+  width: 50%;
+  height: 100vh;
+  padding: 2rem;
+  padding-left: 20px;
+  padding-top: 1px;
+  background-color: rgb(6, 3, 4);
+  font-size: 1.08rem;
+  color: rgb(222, 40, 101);
+  line-height: 1.5;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.about-us-page .content b {
+  font-size: 1.2rem;
+  color: #fcf7f7;
+  font-weight: bold;
+}
+
+.about-us-page .content ul {
+  font-size: 1.17rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.about-us-page footer {
+  width: 100%;
+  padding: 2rem;
+  background-color: #333;
+  color: #e70c13;
+  font-size: 1.5rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.contai{
+  font-size: 1.7em;
+}
+.consist{
+  font-size: 1em;
+  color: #fcf7f7;
+  font-family:'Times New Roman', Times, serif;
+}
+.dark{
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Chivo Mono;
+}

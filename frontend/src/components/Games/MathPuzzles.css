@@ -1,0 +1,52 @@
+.math-puzzles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  margin: 20px auto; /* Center the container horizontally */
+  position: relative;
+  width: 90%; /* Set the width to 100% or a specific value like 80% if needed */
+  max-width: 600px; /* Limit the maximum width */
+  height: 100vh;
+  background-size:cover;
+  /* background-position: 900px; */
+  animation: backgroundChange 20s infinite;
+  color:aliceblue;
+  margin-top: -5px;
+  
+}
+
+.math-puzzles input, .math-puzzles button {
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+  font-size: 16px;
+  z-index: 1; /* Ensure the form elements are above the background */
+  /* background-color: chartreuse; */
+}
+.math-puzzles button{
+  background-color: chartreuse;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-image: url('C:/Users/Deepak Ramana S/Downloads/bookworm-master/bookworm-master/src/assets/pikaso_texttoimage_adorable-cartoon-style-children-in-cartoon-and-rea.jpeg');
+    width: 200%;
+  }
+  25% {
+    background-image: url('C:/Users/Deepak Ramana S/Downloads/bookworm-master/bookworm-master/src/assets/pikaso_texttoimage_adorable-cartoon-style-Whimsical-cartoon-illustrat.jpeg');
+    width: 200%;
+  }
+  50% {
+    background-image: url('C:/Users/Deepak Ramana S/Downloads/bookworm-master/bookworm-master/src/assets/pikaso_texttoimage_Imaginative-cartoon-depiction-of-four-diverse-chil.jpeg');
+    width: 200%;
+  }
+  75% {
+    background-image: url('C:/Users/Deepak Ramana S/Downloads/bookworm-master/bookworm-master/src/assets/pikaso_texttoimage_35mm-film-photography-Three-children-a-Caucasian-g.jpeg');
+    width: 200%;
+  }
+  100% {
+    background-image: url('C:/Users/Deepak Ramana S/Downloads/bookworm-master/bookworm-master/src/assets/pikaso_texttoimage_adorable-cartoon-style-children-in-cartoon-and-rea.jpeg');
+    width: 500%;
+  }
+}

@@ -1,0 +1,74 @@
+/* Styles for the Tic Tac Toe game */
+
+.tic-tac-toe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    /* color: aqua; */
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color:burlywood;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .square:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background: #ffebee; /* Light Red */
+    }
+    25% {
+      background-color: #e3f2fd; /* Light Blue */
+    }
+    50% {
+      background-color: #e8f5e9; /* Light Green */
+    }
+    75% {
+      background-color: #fff3e0; /* Light Orange */
+    }
+    100% {
+      background-color: #ffebee; /* Light Red */
+    }
+  }
+
+  
+  
+  body {
+    animation: backgroundAnimation 10s infinite;
+    
+  }
+  h1{
+    margin-bottom: 400px;
+    color:chocolate;
+    /* margin-left: 200px; */
+  }
+  .status{
+    margin-bottom: 400px;
+    color:chocolate;
+    font-size:larger;
+
+  }
+  .iii{
+     background-image: url('https://static.vecteezy.com/system/resources/previews/004/532/221/original/tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg');
+     height: 100%;
+  }

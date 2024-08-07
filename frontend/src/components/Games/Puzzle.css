@@ -1,0 +1,40 @@
+/* src/Puzzle.css */
+.puzzle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-top: -250px;
+
+  }
+  
+  .puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .empty {
+    background: #fff;
+    cursor: default;
+  }
+  
+  .tile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+ 
